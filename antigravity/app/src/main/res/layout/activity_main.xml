@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:id="@+id/layout"
+    android:background="@drawable/crepe">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/ruby"
+        android:layout_gravity="center"
+        android:id="@+id/ruby"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/emeraldjunior"
+        android:layout_gravity="center"
+        android:id="@+id/emerald"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/orangestone"
+        android:layout_gravity="center"
+        android:id="@+id/orange"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/purplestone"
+        android:layout_gravity="center"
+        android:id="@+id/purple"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/topaz"
+        android:layout_gravity="center"
+        android:id="@+id/topaz"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/sapphire"
+        android:layout_gravity="center"
+        android:id="@+id/sapphire"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="generate"
+        android:background="@android:color/transparent"
+        android:textSize="24sp"
+        android:paddingTop="24dp"
+        android:text="generate" />
+
+</LinearLayout>
